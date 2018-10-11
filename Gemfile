@@ -42,7 +42,7 @@ gem 'foreigner',           '1.4.2'
 # File uploading
 
 gem 'carrierwave', '0.9.0'
-gem 'fog',         '1.14.0'
+gem 'fog', '1.14.0'
 gem 'mini_magick', '3.6.0'
 gem 'remotipart',  '1.2.1'
 
@@ -59,10 +59,10 @@ gem 'messagebus_ruby_api', '1.0.3'
 
 # Parsing
 
-gem 'nokogiri',         '1.6.0'
+gem 'nokogiri', '1.8.5'
 gem 'rails_autolink',   '1.1.0'
 gem 'redcarpet',        '3.0.0'
-gem 'roxml',            '3.1.6'
+gem 'roxml', '3.1.6'
 gem 'ruby-oembed',      '0.8.9'
 gem 'opengraph_parser', '0.2.3'
 
@@ -187,7 +187,7 @@ group :test do
 
   # Cucumber (integration tests)
 
-  gem 'capybara',           '2.1.0'
+  gem 'capybara', '2.1.0'
   gem 'database_cleaner',   '1.1.0'
   gem 'selenium-webdriver', '2.34.0'
 
@@ -204,7 +204,7 @@ group :development, :test do
   gem "rspec-rails",     '2.13.2'
 
   # Cucumber (integration tests)
-  gem 'cucumber-rails',     '1.3.1', :require => false
+  gem 'cucumber-rails', '1.3.1', :require => false
 
   # Jasmine (client side application tests (JS))
   gem 'jasmine', '1.3.2'
