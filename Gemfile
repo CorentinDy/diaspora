@@ -89,7 +89,7 @@ gem 'acts-as-taggable-on', '2.4.1'
 gem 'addressable',        '2.3.5', :require => 'addressable/uri'
 gem 'faraday',            '0.8.8'
 gem 'faraday_middleware', '0.9.0'
-gem 'typhoeus',           '0.6.3'
+gem 'typhoeus', '0.6.3'
 
 # Views
 
@@ -167,9 +167,9 @@ group :development do
   # Automatic test runs
 
   gem 'guard-cucumber', '1.4.0'
-  gem 'guard-rspec',    '3.0.2'
+  gem 'guard-rspec', '3.0.2'
   gem 'rb-fsevent',     '0.9.3', :require => false
-  gem 'rb-inotify',     '0.9.0', :require => false
+  gem 'rb-inotify', '0.9.0', :require => false
 
   # Preloading environment
 
